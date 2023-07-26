@@ -1,0 +1,19 @@
+.number {
+    color: #474955;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 137.687%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.highlighted {
+    color: #7EBC3C;
+}
+
+@media screen and (max-width: 450px) {
+    .number {
+        font-size: 14px;
+    }
+}

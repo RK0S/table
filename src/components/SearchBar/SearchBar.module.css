@@ -1,0 +1,49 @@
+.wrapper {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.searchBar {
+    width: 631px;
+    height: 52px;
+    padding: 18px 0 15px 26px;
+    background: #5A5C66;
+    color: white;
+    border: none;
+    font-size: 14px;
+    line-height: 137.687%;
+}
+
+.searchBar::placeholder {
+    font-size: 14px;
+    line-height: 137.687%;
+    color: #B2B7BF;
+}
+
+.searchBar:focus {
+    outline: none;
+}
+
+.img {
+    position: absolute;
+    left: 586px;
+    top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .searchBar {
+        width: 500px;
+    }
+    .img {
+        left: 450px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .searchBar {
+        width: 100%;
+    }
+    .img {
+        left: 80%;
+    }
+}

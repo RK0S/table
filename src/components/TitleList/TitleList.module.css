@@ -1,0 +1,135 @@
+.titleList {
+    display: flex;
+    width: 1075px;
+    height: 54px;
+    background: #474955;
+    box-shadow: 0px 4px 27px 0px rgba(230, 231, 234, 0.78);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 137.687%;
+}
+
+.id {
+    display: flex;
+    align-items: center;
+    width: 110px;
+    padding: 19px 21px 16px;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    width: 529px;
+    padding: 19px 288px 16px 125px;
+    cursor: pointer;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    width: 433px;
+    padding: 19px 211px 16px 121px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .titleList {
+        width: 800px;
+    }
+
+    .id {
+        width: 100px;
+        padding: 19px 20px 16px;
+    }
+
+    .title {
+        width: 350px;
+        padding: 19px 100px 16px 125px;
+    }
+
+    .description {
+        width: 350px;
+        padding: 19px 100px 16px 121px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .titleList {
+        width: 600px;
+    }
+
+    .id {
+        width: 100px;
+    }
+
+    .title {
+        width: 250px;
+        padding: 19px 50px 16px;
+    }
+
+    .description {
+        width: 250px;
+        padding: 19px 50px 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titleList {
+        width: 500px;
+    }
+
+    .id {
+        width: 100px;
+    }
+
+    .title {
+        width: 200px;
+        padding: 19px 50px 16px;
+    }
+
+    .description {
+        width: 200px;
+        padding: 19px 50px 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .titleList {
+        width: 100%;
+    }
+
+    .id {
+        width: 24%;
+        padding: 19px 20px 16px;
+    }
+
+    .title {
+        width: 38%;
+        padding: 19px 20px 16px;
+    }
+
+    .description {
+        width: 38%;
+        padding: 19px 20px 16px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .titleList {
+        font-size: 12px;
+    }
+
+    .id {
+        padding: 19px 10px 16px;
+    }
+
+    .title {
+        padding: 19px 6px 16px;
+    }
+
+    .description {
+        padding: 19px 6px 16px;
+    }
+}

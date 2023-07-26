@@ -1,0 +1,7 @@
+.arrow {
+    margin-left: auto;
+}
+
+.arrowRotated {
+    transform: rotateZ(180deg);
+}
